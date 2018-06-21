@@ -1,20 +1,24 @@
-# [Material-UI](https://github.com/callemall/material-ui) - Example Webpack Project
+# [Material-UI](https://github.com/callemall/material-ui) & socket.io
 
-This is an example project that uses [Material-UI](https://github.com/callemall/material-ui).
+This is an example project that uses Material-UI and socket.io.
 
 ## Installation
 
 After cloning the repository, install dependencies:
 ```sh
-cd <project folder>/material-ui/examples/webpack-example
 npm install
 ```
 
-Now you can run your local server:
+Now you can run your local server - webpack编译:
 ```sh
-npm start
+npm run start 
 ```
-Server is located at http://localhost:3000
+
+Now you can run your local server - 启动服务:
+```sh
+node server.js
+```
+Server is located at http://localhost:3110
 
 Note: To allow external viewing of the demo, change the following value in `webpack-dev-server.config.js`
 
